@@ -79,14 +79,13 @@ L'exécution du script d'agrégation (`04_agregation_finale_iris.sql`) génère 
 | :---: | :---: | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **1** | `453020101` | **Saran** | Centre | H | 7 016 | 363 | 13 486 | 2 207 | **15 693** |
 | **2** | `452340702` | **Orléans** | Argonne-Champ Chardon-Fontaine-Nicotin | H | 6 068 | 141 | 11 311 | 873 | **12 184** |
-| **3** | `452342103` | **Orléans** | Universités *(La Source)* | H | 2 498 | 126 | 7 933 | 3 956 | **11 889** |
+| **3** | `452342103` | **Orléans** | Universités | H | 2 498 | 126 | 7 933 | 3 956 | **11 889** |
 | **4** | `451470401` | **Fleury-les-Aubrais** | Gare | H | 4 978 | 204 | 8 502 | 1 324 | **9 826** |
 | **5** | `452340301` | **Orléans** | Carmes-République | H | 4 025 | 286 | 7 660 | 2 063 | **9 723** |
 | **6** | `452320203` | **Olivet** | Larry | H | 3 962 | 213 | 7 294 | 2 039 | **9 333** |
 | **7** | `453020104` | **Saran** | Sud-Ouest | H | 3 338 | 266 | 6 007 | 3 003 | **9 010** |
-| **8** | `452350000` | **Ormes** | Ormes *(commune non irisée)* | Z | 4 341 | 116 | 7 788 | 735 | **8 523** |
+| **8** | `452350000` | **Ormes** | Ormes (commune non irisée) | Z | 4 341 | 116 | 7 788 | 735 | **8 523** |
 | **9** | `452341401` | **Orléans** | Plantes-Dauphine | H | 3 955 | 126 | 7 218 | 1 206 | **8 424** |
-| **10**| `452840101` | **Saint-Jean-de-Braye**| Puits de Ville-Centre Ville | H | 3 873 | 135 | 6 949 | 1 190 | **8 139** |
 
 ### Analyse des résultats :
 1. **Validation des polarités majeures :** Le modèle fait ressortir avec précision les grands générateurs métropolitains (le quartier *Argonne* à forte captivité sociale, le pôle *Universités*, le pôle multimodal de *Fleury Gare*, l'hypercentre *Carmes-République* ou les pôles commerciaux de *Saran*).
